@@ -166,7 +166,6 @@ HCURSOR CPJE1626361MonsterWorld01EngergyDlg::OnQueryDragIcon()
 void CPJE1626361MonsterWorld01EngergyDlg::OnBnClickedButton1()
 {
 	// P348 몬스터월드 에너지
-		// P339 프로그램 7.13 - 몬스터 월드 메인함수
 	srand((unsigned int)time(NULL));
 	int w = 16, h = 8;
 
