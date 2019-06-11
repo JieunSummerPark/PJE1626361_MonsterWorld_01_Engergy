@@ -25,7 +25,7 @@ class Monster {
 	}
 public:
 	Monster(string n = "나괴물", string i = "※", int px = 0, int py = 0)
-		: name(n), icon(i), x(px), y(py), nItem(0), nEnergy(100) {} /*맨 처음에는 모든 몬스터 객체의 에너지가 100*/
+		: name(n), icon(i), x(px), y(py), nItem(0), nEnergy(100) {} // 맨 처음에는 모든 몬스터 객체의 에너지가 100
 	~Monster() { cout << "\t" << name << icon << " 물러갑니다~~~\n"; }
 
 	void draw(Canvas & canvas) { canvas.draw(x, y, icon); }
