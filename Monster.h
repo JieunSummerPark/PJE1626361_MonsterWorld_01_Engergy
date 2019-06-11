@@ -17,6 +17,7 @@ class Monster {
 		if (map[y][x] == 1) {
 			map[y][x] = 0;
 			nItem++;
+			nEnergy += 8;
 		}
 	}
 public:
@@ -39,5 +40,5 @@ public:
 		clip(maxx, maxy);
 		eat(map);
 	}
-	void print() { cout << "\t" << name << icon << ":" << nItem << "E:" << nEnergy << endl; }
+	void print() { cout << "\t" << name << icon << ":" << nItem << "\tE:" << nEnergy << endl; }
 };
