@@ -3,9 +3,9 @@
 #define DIM 40
 
 class Monster {
-	string name, icon;	// 몬스터 이름과 화면 출력용 아이콘
+	string name, icon;		// 몬스터 이름과 화면 출력용 아이콘
 	int x, y, nItem;		// 현재 위치와 먹은 아이템 수
-	int nEnergy;	// 에너지
+	int nEnergy;			// 에너지
 
 	void clip(int maxx, int maxy) {
 		if (x < 0) x = 0;
