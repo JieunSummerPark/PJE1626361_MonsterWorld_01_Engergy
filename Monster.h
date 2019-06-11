@@ -39,5 +39,5 @@ public:
 		clip(maxx, maxy);
 		eat(map);
 	}
-	void print() { cout << "\t" << name << icon << ":" << nItem << endl; }
+	void print() { cout << "\t" << name << icon << ":" << nItem << "E:" << nEnergy << endl; }
 };
